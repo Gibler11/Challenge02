@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  header {
+    padding: 5px 0 10px;
+    background-color: #343637;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  header h1 {
+    color: #343637;
+    background-color: #38A9B4;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  header nav {
+    padding-top: 15px;
+    margin-right: 70px;
+    float: right;
+    font-size: 20px;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  header nav ul li a {
+    color: #38A9B4;
+    font-size: 25px;
+    border-bottom: 1px solid #38A9B4;
+    text-decoration: none;
+  }
+  
+  .hero {
+    height: 210px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/R.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero h3 {
+    float: right;
+    margin-right: 70px;
+    margin-top: 80px;
+    padding: 5px 5px 5px 5px;
+    font-size: 30px;
+    background-color: #38A9B4;
+    color: #343637;
+  }
+  
+  .section-title {
+    font-size: 50px;
+    margin-right: 10px;
+    color: #38A9B4;
+    padding-left: 100px;
+  }
+  
+  .profile {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .intro p {
+    width: 70%;
+    border-left: 2px solid #343637;
+    text-align: center;
+    padding-left: 300px;
+  }
+  
+  .work-history h2 {
+    padding-left: 100px;
+  }
+  
+  .project-examples {
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    border-left: 2px solid #343637;
+    justify-content: space-around;
+    padding-left: 50px;
+  
+  }
+  
+  .large-project {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    border: 3px solid #38A9B4;
+    margin-bottom: 20px;
+  }
+  
+  .large-project h3 {
+    font-size: 40px;
+    margin-top: 500px;
+  }
+  
+  .small-project {
+    border: 2px solid #38A9B4;
+    object-fit: cover;
+    width: 50%;
+    min-height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .small-project h3 {
+    font-size: 30px;
+    margin-top: 200px;
+  }
+  
+  .profile span {
+    background-color: #2CD7E8;
+    border: 2px solid #38A9B4;
+  }
+  
+  .led {
+    background-image: url("../images/OIP.jpg");
+    background-size: cover;
+  }
+  
+  .calculator {
+    background-image: url("../images/OIP.jpg");
+    background-size: cover;
+  }
+  
+  .pastel {
+    background-image: url("../images/OIP.jpg");
+    background-size: cover;
+  }
+  
+  .run-buddy {
+    background-image: url("../images/132803189_10221588761286534_341181745963633150_n\ prifile\ pic\ -\ Shortcut.lnk");
+    background-size: cover;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  footer h2 {
+    font-size: 30px;
+    margin: 0;
+    text-align: right;
+    padding-bottom: 10px;
+  }
+  
+  footer nav {
+    font-size: 30px;
+    border-left: 2px solid #343637;
+    padding: 30px 0px 30px 0px;
+  }
+  
+  footer nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  
+  footer nav ul {
+    list-style-type: none;
+  }
+  
+  section {
+    padding: 45px;
+  }
+  
+  .large-project:hover {
+    opacity: .75;
+  }
+  
+  .small-project:hover {
+    opacity: .75;
+  }
+  
+  @media screen and (max-width: 980px) {
+    header {
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav {
+      margin: 0;
+    }
+  
+    .hero h3 {
+      float: none;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    footer nav {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .large-project {
+      width: 100%;
+  
+    }
+  
+    .small-project {
+      width: 90%;
+    }
+  
+    footer h2 {
+      text-align: center;
+    }
